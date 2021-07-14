@@ -206,30 +206,27 @@ background: cornsilk;
       body{
           width: 688px;
       }
-      .banner{
-        background-color: #2D25A0;
-        Width: 688px;
-       
-        justify-content: space-between;
-    }
+      
     .banner-photo{
+       
         width: 400px;
         height: auto;
         margin-top: 200px;
-        padding-left: 600px;
+        padding-left: 600px; */
         
     }
     .banner-photo img{
-        width:50%;
+        width:100%;
         float: right;
-       
+        display: block;
+    
     }
     .banner-titile{ 
-        float: left;
-        Width:40%;
-        position: absolute;
-        margin-top:250px;
-        margin-left: 50px;
+        display: inline-block;
+        float: top;
+      position:absolute;
+        Width:100%;
+       margin: auto;
         }
     .banner-titile h1{
         display: inline;
